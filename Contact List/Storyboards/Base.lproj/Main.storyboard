@@ -109,7 +109,7 @@
         <!--contacts-->
         <scene sceneID="YHg-76-Pqf">
             <objects>
-                <tableViewController id="r44-iF-mMa" sceneMemberID="viewController">
+                <tableViewController id="r44-iF-mMa" customClass="SectionTableViewController" customModule="Contact_List" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="0cU-2G-bFJ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -17,8 +17,11 @@ class TabBarViewController: UITabBarController {
     private func setupViewController() {
         let personList = Person.setValue()
         let personListVC = viewControllers?.first as? PersonListViewController
+        let sectionVC = viewControllers?.last as? SectionTableViewController
         
         personListVC?.personList = personList
+        sectionVC?.personList = personList
+        
         
     }
 

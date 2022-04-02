@@ -9,7 +9,7 @@ import UIKit
 
 class PersonListViewController: UITableViewController {
     
-    var personList = Person.setValue()
+    var personList: [Person] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()

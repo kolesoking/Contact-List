@@ -17,6 +17,7 @@
 		C4DA2D3527F7668B00B14E08 /* FullInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DA2D3427F7668B00B14E08 /* FullInfoViewController.swift */; };
 		C4DA2D3727F7687700B14E08 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DA2D3627F7687700B14E08 /* TabBarViewController.swift */; };
 		C4DA2D3B27F76ECC00B14E08 /* SectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DA2D3A27F76ECB00B14E08 /* SectionTableViewController.swift */; };
+		C4DA2D3D27F84FA800B14E08 /* DataManeger.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DA2D3C27F84FA800B14E08 /* DataManeger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		C4DA2D3427F7668B00B14E08 /* FullInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullInfoViewController.swift; sourceTree = "<group>"; };
 		C4DA2D3627F7687700B14E08 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		C4DA2D3A27F76ECB00B14E08 /* SectionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTableViewController.swift; sourceTree = "<group>"; };
+		C4DA2D3C27F84FA800B14E08 /* DataManeger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManeger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				C4DA2D2F27F761C500B14E08 /* Person.swift */,
+				C4DA2D3C27F84FA800B14E08 /* DataManeger.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 				C4DA2D1827F7616300B14E08 /* AppDelegate.swift in Sources */,
 				C4DA2D1A27F7616300B14E08 /* SceneDelegate.swift in Sources */,
 				C4DA2D3B27F76ECC00B14E08 /* SectionTableViewController.swift in Sources */,
+				C4DA2D3D27F84FA800B14E08 /* DataManeger.swift in Sources */,
 				C4DA2D3727F7687700B14E08 /* TabBarViewController.swift in Sources */,
 				C4DA2D3327F7649400B14E08 /* PersonListViewController.swift in Sources */,
 			);
